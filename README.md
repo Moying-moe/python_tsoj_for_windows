@@ -1,0 +1,2 @@
+# python_tsoj_for_windows
+一个使用python+PyQt5制作的客户端式的TSOJ
