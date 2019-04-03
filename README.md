@@ -1,6 +1,8 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
+---
+
 # PCOJ
 一个使用python+PyQt5制作的客户端式的TSOJ。
 
@@ -10,9 +12,9 @@ A executable-style programe for TSOJ using python + PyQt5.
 
 The source of data and its API is powered by TSOJ: [web_TSOJ](https://acm.nuist.edu.cn/)
 
----
+<br />
 
-另注：工地英语警告！
+注意：工地英语警告！
 
 NOTE: BROKEN ENGLISH IN THIS PAGE!
 
