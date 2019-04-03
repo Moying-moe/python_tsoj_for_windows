@@ -44,11 +44,11 @@ These files will be created while the program is running.
 
 |文件路径  Path|注释 Annotation|
 |-------------|---------------|
-|./images/temp/|存储用户头像、统计图  user's avantar and cartograms|
+|./images/temp/|存储用户头像、统计图  user's avatar and cartograms|
 |./save.oj|存储用户登录状态  save user's login state|
 |./login.oj|存储用户的用户名和密码(may be unsafe, whatever~)  save user's username and password|
 
 ## 已知的BUG  knowing bug
 修改头像时若单击“取消”会导致程序崩溃。
 
-Click the 'cancel' button while editing avantar may cause crashes or throws exceptions.
+Click the 'cancel' button while editing avatar may cause crashes or throws exceptions.
