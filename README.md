@@ -30,23 +30,24 @@ SIP安装可能会出现各种错误，百度有解决方案。
 There may be some error while installing `SIP`, you can get the solution by google.
 
 ## 文件结构  File Structure
-./images/        # 图片资源 用户数据的缓存  image resources and cache
 
-./icon.ico      # UI的图标  logo for main form
+|文件路径  Path|注释 Annotation|
+|-------------|---------------|
+|./images/|图片资源 用户数据的缓存  image resources and cache|
+|./icon.ico|UI的图标  logo for main form|
+|./main.py|UI的主要代码  source code|
+|./pyTSOJ.py|TSOJ的API  API for TSOJ|
+|./small.ico|较小尺寸的icon 用于exe文件的图标  smaller icon using for the executable file|
 
-./main.py       # UI的主要代码  source code
+以下文件将会在运行过程中被创建。
 
-./pyTSOJ.py     # TSOJ的API  API for TSOJ
+These files will be created while the program is running.
 
-./small.ico     # 较小尺寸的icon 用于exe文件的图标  smaller icon using for the executable file
-
-以下文件将会在运行过程中被创建
-
-./images/temp/  # 存储用户头像、统计图  user's avantar and cartograms
-
-./save.oj       # 存储用户登录状态  save user's login state
-
-./login.oj      # 存储用户的用户名和密码(may be unsafe, whatever~)  save user's username and password
+|文件路径  Path|注释 Annotation|
+|-------------|---------------|
+|./images/temp/|存储用户头像、统计图  user's avantar and cartograms|
+|./save.oj|存储用户登录状态  save user's login state|
+|./login.oj|存储用户的用户名和密码(may be unsafe, whatever~)  save user's username and password|
 
 ## 已知的BUG  knowing bug
 修改头像时若单击“取消”会导致程序崩溃。
